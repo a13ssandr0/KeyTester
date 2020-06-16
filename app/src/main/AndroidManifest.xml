@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="a13ssandr0.keytester">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+<!--    We need to override these libraries, because all require API level 14, but minimum is 1 -->
+    <uses-sdk tools:overrideLibrary="com.google.android.material,
+    androidx.appcompat,
+    androidx.constraintlayout.widget,
+    androidx.viewpager2,
+    androidx.fragment,
+    androidx.appcompat.resources,
+    androidx.drawerlayout,
+    androidx.coordinatorlayout,
+    androidx.transition,
+    androidx.vectordrawable.animated,
+    androidx.vectordrawable,
+    androidx.viewpager,
+    androidx.loader,
+    androidx.activity,
+    androidx.recyclerview,
+    androidx.customview,
+    androidx.core,
+    androidx.cursoradapter,
+    androidx.cardview,
+    androidx.versionedparcelable,
+    androidx.lifecycle,
+    androidx.lifecycle.viewmodel,
+    androidx.savedstate,
+    androidx.interpolator,
+    androidx.lifecycle.livedata,
+    androidx.lifecycle.livedata.core,
+    androidx.arch.core" />
+
+    <application
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+        <activity
+            android:name="a13ssandr0.keytester.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:configChanges="orientation|screenSize|keyboardHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths"/>
+        </provider>
+    </application>
+
+</manifest>

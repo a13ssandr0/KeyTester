@@ -1,0 +1,23 @@
+<resources>
+    <string name="captureAllKeys">Cattura tutti i tasti</string>
+    <string name="settings">Impostazioni</string>
+    <string name="clear">Cancella elenco</string>
+    <string name="export">Esporta</string>
+    <string name="cancelled">Annullato</string>
+    <string name="pressBackAgain">Premi nuovamente indietro per uscire</string>
+    <string name="writingDenied">Scrittura negata</string>
+    <string name="writingAllowed">Scrittura consentita</string>
+    <string name="fsNotMounted">Filesystem non montato o non montabile, impossibile scrivere!</string>
+    <string name="fsUnknown">Filesystem sconosciuto, impossibile scrivere!</string>
+    <string name="fsMountedReadOnly">Filesystem montato in sola lettura, impossibile scrivere!</string>
+    <string name="savingError">Errore di salvataggio</string>
+    <string name="fileNotFound">File non trovato</string>
+    <string name="open">Apri</string>
+    <string name="savedIn">Salvato in</string>
+    <string name="emptyFile">Il file da salvare è vuoto, premi almeno un tasto</string>
+    <string name="confirmClear">Vuoi esportare la lista prima di cancellarla?</string>
+    <string name="save">Salva</string>
+    <string name="cancel">Annulla</string>
+    <string name="cleared">Cancellato</string>
+    <string name="share">Condividi</string>
+</resources>

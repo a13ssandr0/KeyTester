@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="a13ssandr0.keytester.MainActivity">
+
+<!--    not implemented yet -->
+    <!--<item
+        android:id="@+id/settings"
+        android:orderInCategory="101"
+        android:title="@string/settings"
+        app:showAsAction="never" />-->
+    <item
+        android:id="@+id/clear"
+        android:checkable="false"
+        android:checked="false"
+        android:icon="@drawable/ic_delete_white_24dp"
+        android:title="@string/clear"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/export"
+        android:icon="@drawable/ic_save_white_24dp"
+        android:title="@string/export"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/share"
+        android:icon="@drawable/ic_baseline_share_24"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+</menu>

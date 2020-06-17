@@ -2,6 +2,10 @@
 
 Test the behaviour of quite any key on your Android device.
 
+KeyTester on Android 10
+
+<img src="https://github.com/a13ssandr0/KeyTester/blob/master/KeyTester%20Android10.jpg" width="250">
+
 Some buttons such as Home, Recent Apps (Multitasking) and Power won't be detected because the system needs them to be always available and working (e.g., when an app freezes and the user wants to terminate it), so it won't let any app intercept them (at least without some special privileges).
 
 Each time your press a button, it will be registered and displayed in a list that you can save and share easily.

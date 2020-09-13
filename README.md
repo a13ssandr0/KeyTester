@@ -22,3 +22,5 @@ All the constants work with:
 - [Activity.onKeyShortcut](https://developer.android.com/reference/android/app/Activity#onKeyShortcut(int,%20android.view.KeyEvent))
 - [Activity.onKeyUp](https://developer.android.com/reference/android/app/Activity#onKeyUp(int,%20android.view.KeyEvent))
 - any other method that deals with KeyEvents
+
+[![Get it on Google Play](https://github.com/a13ssandr0/KeyTester/blob/master/google-play-badge.png)](https://play.google.com/store/apps/details?id=a13ssandr0.keytester)

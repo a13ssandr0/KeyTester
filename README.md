@@ -24,3 +24,10 @@ All the constants work with:
 - any other method that deals with KeyEvents
 
 [![Get it on Google Play](https://github.com/a13ssandr0/KeyTester/blob/master/google-play-badge.png)](https://play.google.com/store/apps/details?id=a13ssandr0.keytester)
+
+#
+#
+
+[!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/a13ssandr0)
+
+[<img src="https://raw.githubusercontent.com/aha999/DonateButtons/master/Paypal.png" width="200">](https://www.paypal.com/donate/?hosted_button_id=9RHPMJAS26TJN)
